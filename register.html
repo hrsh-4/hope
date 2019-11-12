@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Register</title>
+  <meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+
+
+  <style >
+  	/*.form-group{
+  		color:#ffffff;
+  	}*/
+  	#fname{
+  		border-radius:5px;
+  		color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 30%;
+  	}
+  	#lname{
+  		border-radius:5px;
+  		color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 30%;
+  	}
+  	#email{
+  		border-radius:5px;
+  		color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 30%;
+
+  	}
+  	#pwd{
+  		border-radius:5px;
+  			color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 30%;
+  	
+  	}
+  	#select{
+  		border-radius:5px;
+  			color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 15%;
+  	
+  	}
+  	#phone{
+  		border-radius:5px;
+  			color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 30%;
+  	
+
+  	}
+  	#txt{
+  		border-radius:20px;
+  			color:white;
+  		background: rgba(0,0,0,0);
+  		max-width: 50%;
+  	
+  	}
+  	#btn1,#btn2,#brand{
+  		color: white;
+  		border-radius:5px;
+  		
+  
+  	}
+  	b{
+  		font-size: 25px;
+  		font-weight: bolder;
+  		color:red;
+  	}
+  	#a1{
+  		color: white;
+  	}
+
+  	body,nav{
+		
+		background: no-repeat  url('hole.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		color: #ffffff
+	}
+	
+	#nav1{
+		background:black;
+	}
+  </style>
+</head>
+<body>
+<center>
+
+	<br>
+	<div  >
+	<nav id='nav1' class="navbar navbar-default navbar-fixed-top">
+		<div class='container'>
+			<div class=" navbar-header ">
+				<a id='brand' href="home.html" class="navbar-brand">BY HEART <b>&hearts;</b></a>
+				<button type="button" class="navbar-toggle collapsed" aria-label='toggle menu' data-toggle='collapse' data-target="#ul1">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+
+				</button>
+			</div>
+						<div class="collapse navbar-collapse" id='ul1'>
+			<ul id="ul2" class="nav navbar-nav navbar-right">
+				<li id="li1"><a class='a1' href="gallery.html">Gallery</a></li>
+				<li id="li2"><a class='a1' href="events.html">Events</a></li>
+				<li id="li3"><a class='a1' href="donate.html">Donate</a></li>
+
+				<li id="li4"><a class='a1' href="register.html">Register</a></li>
+
+				<li id='li5'><a class="a1" href="contact.html">Contact Us</a></li>
+
+			
+				<li id="li6"> <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="aboutus.html">Know Us</a></li>
+          <li><a href="developers.html">Developers</a></li>
+          
+        </ul>
+      </li></li>
+				
+			</ul>
+		</div></div>
+
+
+
+	</nav><br><br>
+
+
+
+	<form>
+		<div class="container ">
+			<h1>REGISTER</h1>
+			<div class="form-group">
+			</div>
+			
+
+			<div class="form-group">
+			<label for='fname'>First Name : </label>
+			<input id='fname' type="name" name="fname" class="form-control w-50" max-width='300px'  required>
+			</div>
+			<div class="form-group">
+			<label for='lname'>Last Name : </label>
+			<input id='lname' type="name" name="fname" class="form-control w-50" max-width='300px'  required>
+			</div>
+			<div class="form-group">
+			<label for='email'>E-mail : </label>
+			<input id='email' type="email" name="email" class="form-control" required></div>
+			<div class="form-group">
+				<label for='phone'>Phone : </label>
+				<input id='phone' type="text" maxlength='10' name="phone" class="form-control" required="">
+			</div>
+			<div class="form-group">
+			<label for='pwd'>Password: </label>
+			<input id='pwd' type="password" name="pwd" class="form-control" required></div>
+	
+				
+			<div class="form-group">
+				<button id="btn1" class='btn btn-info' >Sign-Up</button><br><br>
+						</div>
+</div>
+
+</form>
+</div>
+	</form>
+    </form>
+    <form>
+<button id="btn2" class ='btn  btn-success' formaction="home.html" >Already a member? Sign-In</button>
+</form>
+
+</center>
+</div>
+
+
+
+
+
+</body>
+</html>
