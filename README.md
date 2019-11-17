@@ -16,4 +16,3 @@ A website for BY HEART group, which is a group of people that wants to help orph
 
 ![contact](https://github.com/hrsh-4/hope/blob/master/sceenshot/contact.png)
 
-![developers](https://github.com/hrsh-4/hope/blob/master/sceenshot/developers.png)
